@@ -1,0 +1,16 @@
+# Defines the installable Python package and its baseline project metadata.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asu-sdc-2026-27"
+version = "0.1.0"
+description = "Electrical and controls software for ASU's 2026-27 ASME SDC robot."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

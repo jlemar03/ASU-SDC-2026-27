@@ -1,0 +1,19 @@
+# macOS metadata
+.DS_Store
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Local environments and secrets
+.venv/
+.env
+
+# Editor settings
+.idea/
+.vscode/
+
