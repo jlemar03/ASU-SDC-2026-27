@@ -12,6 +12,8 @@ TARGET_REV = 10.0 # 10 is just an arbitrary number for testing can be wtv
 
 encoder_a = DigitalInputDevice(PIN_A, pull_up=None, active_state=True) #encoder a object
 encoder_b = DigitalInputDevice(PIN_B, pull_up=None, active_state=True) #encodeer b object
+encoder_count = 0  #encoder count
+
 
 def a_encoder_tick():
     global encoder_count
