@@ -4,7 +4,7 @@ import numpy as np
 WHEELS = ("FL", "FR", "RL", "RR")
 
 # Axle angles measured counterclockwise from +x.
-AXLE_ANGLES = np.deg2rad([45, -45, -45, 45])
+AXLE_ANGLES = np.deg2rad([45, -45, 135, -135])
 
 
 def jacobian_matrix(r):
