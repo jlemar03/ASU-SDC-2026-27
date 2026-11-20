@@ -1,0 +1,40 @@
+CALIBRATION RESULTS
+========================================
+
+IMAGE
+Resolution = 640 x 480 pixels
+Assumed image center = (320.00, 240.00)
+
+----------------------------------------
+SQUARE MEASUREMENTS
+----------------------------------------
+Top width     = 108.07 px
+Bottom width  = 109.11 px
+Left height   = 108.37 px
+Right height  = 109.29 px
+
+Average width  = 108.59 px
+Average height = 108.83 px
+
+----------------------------------------
+CAMERA INTRINSICS
+----------------------------------------
+fx = 434.38 pixels
+fy = 435.34 pixels
+cx = 320.00 pixels
+cy = 240.00 pixels
+
+----------------------------------------
+CAMERA MATRIX K
+----------------------------------------
+[[434.37733465   0.         320.        ]
+ [  0.         435.33506979 240.        ]
+ [  0.           0.           1.        ]]
+
+----------------------------------------
+APPROXIMATE FIELD OF VIEW
+----------------------------------------
+Horizontal FOV = 72.76 degrees
+Vertical FOV   = 57.74 degrees
+
+========================================
