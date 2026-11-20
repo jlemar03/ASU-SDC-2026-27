@@ -1,10 +1,4 @@
 """HD Hex motor setup using a REV Spark Mini PWM controller."""
-
-try:
-	import gpio  # Optional board GPIO support; the Spark Mini itself uses PWM.
-except ImportError:  # RobotPy installations may not provide a gpio module.
-	gpio = None
-
 import wpilib
 
 
